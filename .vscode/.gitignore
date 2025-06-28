@@ -1,0 +1,10 @@
+# Ignorar o executável compilado
+*.exe
+
+# Ignorar arquivos de objeto, se houver
+*.o
+
+# Ignorar a pasta do VSCode, exceto os arquivos de configuração
+.vscode/*
+!/.vscode/tasks.json
+!/.vscode/c_cpp_properties.json
